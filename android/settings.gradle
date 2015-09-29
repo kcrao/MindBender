@@ -1,0 +1,3 @@
+rootProject.name = 'MindBender'
+
+include ':app'
