@@ -49,19 +49,19 @@
     if (arrayIndex===7) {
       arrayIndex=0;
     }
-     });
+    this.setState({arrayIndex: this.state.arrayIndex + 1});
 
+  },400);
 
+/*
      this.setInterval(() => {
  			this.setState({arrayIndex: this.state.arrayIndex + 1});
     }, 400);
-
+*/
    },
 
    render: function() {
     var movie = MOCKED_MOVIES_DATA[arrayIndex];
-
-    console.log("In here and your arrayIndex is ");
     console.log(arrayIndex);
      return (
        <View style={styles.box} >
